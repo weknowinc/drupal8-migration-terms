@@ -1,6 +1,6 @@
 # drupal8-migration-terms
 
-Module to migrate Drupal8 terms to Drupal 8
+Module to migrate Drupal 8 terms to Drupal 8
 
 Instructions:
 
