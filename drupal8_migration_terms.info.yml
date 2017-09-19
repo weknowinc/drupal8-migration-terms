@@ -1,0 +1,9 @@
+name: "drupal8_migration_terms"
+type: module
+description: Migrate terms from Drupal 8 posts.
+core: 8.x
+package: Custom
+dependencies:
+  - migrate_plus
+  - migrate_tools
+  - migrate_drupal
