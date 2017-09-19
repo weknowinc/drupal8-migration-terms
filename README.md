@@ -1,34 +1,22 @@
 # drupal8-migration-terms
 
 Module to migrate Drupal 8 terms to Drupal 8
+This module migrates terms from Tags vocabulary.
 
 Instructions:
+-------------
 
-- Add credentials to settings.php file:
+- Install [DrupalConsole](https://docs.drupalconsole.com/en/getting/project.html)
+ if you do not have it yet:
 
-```
-$databases['migration_drupal8']['default'] = array(
-  'driver' => 'mysql',
-  'database' => 'db_old_drupal8',
-  'username' => 'root',
-  'password' => 'root',
-  'host' => 'mariadb',
-  'port' => '3306',
-  'prefix' => '',
-  'collation' => 'utf8mb4_general_ci',
-);
-```
+- Enable custom module
 
-- Enable 'drupal8_migration_terms' custom module and its dependencies.
+`$ drupal module:install drupal8_migration_terms`
 
-`$ drush en drupal8_migration_terms -y`
+- Setup migration
 
-- Execute migration:
+`$ drupal migrate:setup`
 
-`$ drush mi migration_term_tags`
+- Execute migration
 
-You should see something like:
-```
-Processed 5 items (5 created, 0 updated, 0 failed, 0 ignored) - done    [status]
-with 'migration_term_tags'
-```
+`$ drupal migrate:execute migration_term_tags`

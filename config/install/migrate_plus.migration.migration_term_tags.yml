@@ -2,7 +2,6 @@ id: migration_term_tags
 label: Migrate Tags terms from Drupal 8.
 source:
   plugin: migration_d8_term
-  key: migration_drupal8
 process:
   vid:
     plugin: default_value
