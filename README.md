@@ -29,3 +29,9 @@ Instructions:
 ![alt text][execute]
 
 [execute]: ./images/drupal-migrate-execute.png "Drupal Console migrate execute prompt"
+
+- You will see confirmation messages like:
+
+![alt text][result]
+
+[result]: ./images/drupal-migrate-execute-result.png "Drupal Console migrate execute prompt"
