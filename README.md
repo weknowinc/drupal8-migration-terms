@@ -15,6 +15,16 @@ Instructions:
 
 - Setup migration providing connection credential to legacy Drupal 8 database.
 
+You will be prompted to specify these data:
+ - Database type.
+ - Database host.
+ - database name.
+ - Database user.
+ - Database password.
+ - Database prefix.
+ - Database port.
+ - Local file directory.
+
 `$ drupal migrate:setup`
 
 ![alt text][setup]
@@ -23,6 +33,8 @@ Instructions:
 
 
 - Execute migration providing same credentials as migrate:setup command.
+
+You will be prompted to specify the Source site URL and the same information as above in the Setup command.
 
 `$ drupal migrate:execute migration_term_tags`
 
