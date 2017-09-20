@@ -1,0 +1,15 @@
+id: migration_term_tags
+label: Migrate Tags terms from Drupal 8.
+source:
+  plugin: migration_d8_term
+process:
+  vid:
+    plugin: default_value
+    default_value: tags
+  name: name
+  weight: weight
+  parent:
+    plugin: default_value
+    default_value: 0
+destination:
+  plugin: entity:taxonomy_term
