@@ -1,4 +1,4 @@
-# drupal8-migration-terms
+# Drupal 8 migration terms
 
 Module to migrate Drupal 8 terms to Drupal 8
 This module migrates terms from Tags vocabulary.
@@ -6,8 +6,8 @@ This module migrates terms from Tags vocabulary.
 Instructions:
 -------------
 
-## Install [DrupalConsole](https://docs.drupalconsole.com/en/getting/project.html)
- if you do not have it yet:
+## Install Drupal Console
+If you don't have it yet, follow the installation instructions [here](https://docs.drupalconsole.com/en/getting/project.html)
 
 ## Enable custom module.
 
