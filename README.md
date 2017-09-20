@@ -13,15 +13,19 @@ Instructions:
 
 `$ drupal module:install drupal8_migration_terms`
 
-- Setup migration
+- Setup migration providing connection credential to legacy Drupal 8 database.
 
 `$ drupal migrate:setup`
 
-![alt text][logo]
+![alt text][setup]
 
-[logo]: ./images/drupal-migrate-setup.png "Drupal Console migrate setup prompt"
+[setup]: ./images/drupal-migrate-setup.png "Drupal Console migrate setup prompt"
 
 
-- Execute migration
+- Execute migration providing same credentials as migrate:setup command.
 
 `$ drupal migrate:execute migration_term_tags`
+
+![alt text][execute]
+
+[execute]: ./images/drupal-migrate-execute.png "Drupal Console migrate execute prompt"
