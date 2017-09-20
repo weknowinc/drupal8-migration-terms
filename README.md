@@ -7,7 +7,7 @@ Instructions:
 -------------
 
 ## Install Drupal Console
-If you do'nt have it yet, follow the installation instructions [here](https://docs.drupalconsole.com/en/getting/project.html)
+If you don't have it yet, follow the installation instructions [here](https://docs.drupalconsole.com/en/getting/project.html)
 
 ## Enable custom module.
 
